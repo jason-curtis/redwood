@@ -42,6 +42,7 @@ export const run = async () => {
     console.log()
     return
   }
+  process.exitCode ||= 1
 
   console.log('... done with errors.')
   console.log()
