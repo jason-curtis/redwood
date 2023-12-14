@@ -1973,11 +1973,11 @@ __metadata:
   linkType: hard
 
 "@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.14.6, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.9, @babel/runtime@npm:^7.21.0, @babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
-  version: 7.23.2
-  resolution: "@babel/runtime@npm:7.23.2"
+  version: 7.23.6
+  resolution: "@babel/runtime@npm:7.23.6"
   dependencies:
     regenerator-runtime: "npm:^0.14.0"
-  checksum: 271fcfad8574269d9967b8a1c03f2e1eab108a52ad7c96ed136eee0b11f46156f1186637bd5e79a4207163db9a00413cd70a6428e137b982d0ee8ab85eb9f438
+  checksum: d886954e985ef8e421222f7a2848884d96a752e0020d3078b920dd104e672fdf23bcc6f51a44313a048796319f1ac9d09c2c88ec8cbb4e1f09174bcd3335b9ff
   languageName: node
   linkType: hard
 
@@ -9018,7 +9018,7 @@ __metadata:
     fast-json-parse: "npm:1.0.3"
     fastify: "npm:4.24.3"
     fastify-raw-body: "npm:4.3.0"
-    graphiql: "npm:2.4.7"
+    graphiql: "npm:3.0.10"
     graphql: "npm:16.8.1"
     graphql-scalars: "npm:1.22.4"
     graphql-yoga: "npm:4.0.4"
@@ -15787,15 +15787,15 @@ __metadata:
   linkType: hard
 
 "codemirror-graphql@npm:^2.0.8":
-  version: 2.0.9
-  resolution: "codemirror-graphql@npm:2.0.9"
+  version: 2.0.10
+  resolution: "codemirror-graphql@npm:2.0.10"
   dependencies:
     graphql-language-service: "npm:5.1.7"
   peerDependencies:
     "@codemirror/language": 6.0.0
     codemirror: ^5.65.3
     graphql: ^15.5.0 || ^16.0.0
-  checksum: f1c3ca26b793d7b3447dc778f9b949beea4b72a5456552735eac890e583d26cf3cf3d25adf405e93fd7905c821d0883792ddbe23fe005482731a347a84477929
+  checksum: 77fc5a83f5d29ef14e896e397b280a9716c0206cfe4d9904266a1d658ba715231d99b1704039e4eb108878851f8c7fd158fec38a626735301c5f7ee51aa9eb15
   languageName: node
   linkType: hard
 
@@ -21125,9 +21125,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphiql@npm:2.4.7":
-  version: 2.4.7
-  resolution: "graphiql@npm:2.4.7"
+"graphiql@npm:3.0.10":
+  version: 3.0.10
+  resolution: "graphiql@npm:3.0.10"
   dependencies:
     "@graphiql/react": "npm:^0.17.6"
     "@graphiql/toolkit": "npm:^0.8.4"
@@ -21135,9 +21135,9 @@ __metadata:
     markdown-it: "npm:^12.2.0"
   peerDependencies:
     graphql: ^15.5.0 || ^16.0.0
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 00cc84c24529849b7c9870ee2f4eaf4a2142df8aa767328160f74a9e0a00d3949cb3ec5c8765f08e380366850f15518f42f0f1d6ad6095e731f882faea06dd31
+    react: ^16.8.0 || ^17 || ^18
+    react-dom: ^16.8.0 || ^17 || ^18
+  checksum: 36750b94b8a1abaa2448f6eb6e29c8e38680d06e950bcaab67d26f3ab4509b2bdfcb74162e7e79846665c360943204c0d4d571176187e17a3e7073595763e42e
   languageName: node
   linkType: hard
 
@@ -21177,7 +21177,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-language-service@npm:5.1.7, graphql-language-service@npm:^5.1.6":
+"graphql-language-service@npm:5.1.7":
   version: 5.1.7
   resolution: "graphql-language-service@npm:5.1.7"
   dependencies:
@@ -21188,6 +21188,20 @@ __metadata:
   bin:
     graphql: dist/temp-bin.js
   checksum: 0600ace44ef3b14b9261db50b30e8e5ed8a37179b64da5d4099ec2a09800fcf1ccbfebb9b4c39f9884730538d901243fe5054910864c866f13cf08a6ae523005
+  languageName: node
+  linkType: hard
+
+"graphql-language-service@npm:^5.1.6":
+  version: 5.2.0
+  resolution: "graphql-language-service@npm:5.2.0"
+  dependencies:
+    nullthrows: "npm:^1.0.0"
+    vscode-languageserver-types: "npm:^3.17.1"
+  peerDependencies:
+    graphql: ^15.5.0 || ^16.0.0
+  bin:
+    graphql: dist/temp-bin.js
+  checksum: 2a865d6a7a7fa44bdce12768f7f3b2840a295f9cd684f30bb54db1f3def5f44ea8719c9605b6334fa76798d664f58ed025f17d78199f6c5bc431a67af50190fc
   languageName: node
   linkType: hard
 
