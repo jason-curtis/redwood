@@ -6,11 +6,7 @@ import type _gql from 'graphql-tag'
 // For "internal" global types see ambient.d.ts
 
 declare global {
-<<<<<<< HEAD
   const React: typeof _React
-  const PropTypes: typeof _PropTypes
-=======
->>>>>>> 5921359bf (chore(crwa): remove React `prop-types` package (#9206))
   const gql: typeof _gql
 
   interface Window {
